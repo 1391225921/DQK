@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="1672" started-at="2017-10-25T03:57:23Z" finished-at="2017-10-25T03:57:25Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="1672" started-at="2017-10-25T03:57:23Z" finished-at="2017-10-25T03:57:25Z">
+      <class name="com.zqxq.test.DistribtionApi">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zqxq.test.DistribtionApi@6a024a67]" name="Login" duration-ms="1366" started-at="2017-10-25T11:57:23Z" data-provider="NormalLogin" finished-at="2017-10-25T11:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://dqk.newzqxq.com/user/loginByPassword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[18512321870]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="LoanOrderList(java.lang.String, java.lang.String)[pri:0, instance:com.zqxq.test.DistribtionApi@6a024a67]" name="LoanOrderList" duration-ms="120" started-at="2017-10-25T11:57:24Z" data-provider="NormalfindLoanList" finished-at="2017-10-25T11:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://106.14.237.207:9999/loan/findLoanOrderRecordList]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[879882191558004736]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanOrderList -->
+        <test-method status="PASS" signature="LoanBankList(java.lang.String, java.lang.String)[pri:0, instance:com.zqxq.test.DistribtionApi@6a024a67]" name="LoanBankList" duration-ms="127" started-at="2017-10-25T11:57:24Z" data-provider="NormalfindBankList" finished-at="2017-10-25T11:57:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://106.14.237.207:9999/archives/findUserBankcardInfo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[879882191558004736]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanBankList -->
+      </class> <!-- com.zqxq.test.DistribtionApi -->
+    </test> <!-- Login -->
+  </suite> <!-- Suite1 -->
+</testng-results>

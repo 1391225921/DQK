@@ -1,0 +1,39 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+    
+<suite name="Suite1" verbose="1" >  
+  <test name="Login">  
+  <classes>     
+    <class name="com.zqxq.test.DistribtionApi">  
+      <methods>  
+         <include name="Login" />              
+         <include name="LoanOrderList" />              
+         <include name="LoanBankList" />              
+        <!-- <include name="usercenter" />
+        <include name="GetBanner" />  -->
+      </methods>  
+    </class>       
+  </classes>  
+</test>
+
+<!-- <test name="Login_misspwd">  
+  <classes>     
+    <class name="com.zqxq.testsuit.DistributionAPI">  
+      <methods>  
+        <include name="Login_misspwd" />           
+      </methods>  
+    </class>       
+  </classes>  
+</test>
+
+<test name="Login_erropwd">  
+  <classes>     
+    <class name="com.zqxq.testsuit.DistributionAPI">  
+      <methods>  
+        <include name="Login_errorpwd" />           
+      </methods>  
+    </class>       
+  </classes>  
+</test>
+ -->
+
+</suite> 

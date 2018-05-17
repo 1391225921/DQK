@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Login(failed)">
+    <classes>
+      <class name="com.zqxq.test.DistribtionApi">
+        <methods>
+          <include name="LoanBankList" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.zqxq.test.DistribtionApi -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
